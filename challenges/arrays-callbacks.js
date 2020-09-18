@@ -21,6 +21,9 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
+zooAnimals.forEach(function(item, index){
+  displayNames.push(`Name: ${animal_name[index]}, Scientific: ${scientific_name[index]}`)
+});
 console.log(displayNames);
 
 /* Request 2: .map()
